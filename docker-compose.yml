@@ -5,7 +5,7 @@ networks:
 
 services:
   journal:
-    build: https://github.com/inoda/journal.git#main
+    build: https://github.com/wlburks/journal.git#main
     image: gh-inoda-journal
     volumes:
       - /media/jc/floppy/journal/data:/app:rw
